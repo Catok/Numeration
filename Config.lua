@@ -5,31 +5,31 @@ local l = n.locale
 --	Window options
 ----------------------------------------------------------------------------------------
 n["windows"] = {
-	pos = {"TOPLEFT", 4, -4},				-- Position for Main Frame
-	width = 280,							-- Width for Main Frame
-	maxlines = 9,							-- Maximum lines
-	backgroundalpha = 0.6,					-- Alpha for background
+	pos = {"BOTTOMRIGHT", -9, 32},				-- Position for Main Frame
+	width = 402,							-- Width for Main Frame
+	maxlines = 8,							-- Maximum lines
+	backgroundalpha = 1,					-- Alpha for background
 	fontshadow = true,						-- Use shadow for all fonts
-	scrollbar = true,						-- Show scrollbar
+	scrollbar = false,						-- Show scrollbar
 
 	-- Title
 	titleheight = 16,						-- Heigth for title
 	titlealpha = 0.9,						-- Alpha for title
-	titlefont = [[Fonts\ARIALN.TTF]],		-- Set font for title
+	titlefont = [[Interface\AddOns\ElvUI\media\fonts\PT_Sans_Narrow.ttf]],		-- Set font for title
 	titlefontstyle = "NONE",				-- Font style for title
 	titlefontsize = 13,						-- Font size for title
 	titlefontcolor = {1, 1, 1},				-- Font color for title
 	highlight = {1, 0.8, 0},				-- Color for button highlight
 
 	-- Lines
-	lineheight = 14,						-- Heigth for lines
+	lineheight = 15,						-- Heigth for lines
 	linegap = 1,							-- Heigth for line gap
 	linealpha = 1,							-- Alpha for lines
-	linefont = [[Fonts\ARIALN.TTF]],		-- Set font for line
+	linefont = [[Interface\AddOns\ElvUI\media\fonts\PT_Sans_Narrow.ttf]],		-- Set font for line
 	linefontstyle = "NONE",					-- Font style for line
 	linefontsize = 11,						-- Font size for line
 	linefontcolor = {1, 1, 1},				-- Font color for line
-	linetexture = [[Interface\Tooltips\UI-Tooltip-Background]],	-- Set texture for line
+	linetexture = [[Interface\AddOns\ElvUI\media\textures\Minimalist.tga]],	-- Set texture for line
 }
 
 ----------------------------------------------------------------------------------------
