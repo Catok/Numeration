@@ -123,7 +123,7 @@ n["types"] = {
 		name = l.death_log,
 		id = "deathlog",
 		view = "Deathlog",
-		onlyfights = true,
+		onlyfights = false,
 		c = {.66, .25, .25},
 	},
 }
